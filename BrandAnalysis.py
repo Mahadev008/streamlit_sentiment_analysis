@@ -8,7 +8,7 @@ os.chdir("P:\\PyCharm Selenium Practice\\pythonProject\\Sentiment Analysis\\Fina
 
 
 # Loading the saved model
-scraper = pickle.load(open('Scrapper Initiation/initialized_scraper.pkl', 'rb'))
+scraper = pickle.load(open('./initialized_scraper.pkl', 'rb'))
 
 # @st.cache_data(experimental_allow_widgets=True)
 def brand_analysis(title="Brand Analysis"):
